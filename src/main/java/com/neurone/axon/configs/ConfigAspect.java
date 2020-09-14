@@ -1,4 +1,4 @@
-package my.scribe.template.configs;
+package com.neurone.axon.configs;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

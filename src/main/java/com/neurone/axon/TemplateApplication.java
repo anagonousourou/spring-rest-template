@@ -1,4 +1,4 @@
-package my.scribe.template;
+package com.neurone.axon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

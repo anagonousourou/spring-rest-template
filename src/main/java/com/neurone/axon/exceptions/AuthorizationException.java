@@ -1,4 +1,4 @@
-package my.scribe.template.exceptions;
+package com.neurone.axon.exceptions;
 
 public class AuthorizationException  extends RuntimeException{
 

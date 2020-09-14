@@ -1,4 +1,4 @@
-package my.scribe.template.aspects;
+package com.neurone.axon.aspects;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -9,13 +9,13 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import my.scribe.template.exceptions.AuthorizationException;
+import com.neurone.axon.exceptions.AuthorizationException;
 
 @Aspect
 @Component
 public class SecurityAspect {
     
-    @Before("execution(* my.scribe.template.repositories.*.*(..))")
+    @Before("execution(* com.neurone.axon.repositories.*.*(..))")
     public void beforeStatus(JoinPoint thisJoinPoint) {
         System.err.println("entering: " + thisJoinPoint);
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes())

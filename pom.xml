@@ -8,8 +8,8 @@
 		<version>2.3.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>my.scribe</groupId>
-	<artifactId>template</artifactId>
+	<groupId>com.neurone</groupId>
+	<artifactId>axon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>template</name>
 	<description>Demo project for Spring Boot</description>
